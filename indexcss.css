@@ -1,0 +1,354 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+UL{list-style:none}
+body{font-family: 'Lato', 'Sofia Pro'; padding:0px 40px;
+background-color: #F5F8FA;}
+
+/*This is the header styling*/
+header a {text-decoration:none; color:black}
+header a:hover{text-decoration:underline; font-weight:700}
+header{
+    padding-bottom: 10px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 2px solid #E0E6EA; font-size:14px;
+}
+.pusher{
+    margin-right:auto;
+}
+
+.navo{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navb{
+    display: inline-block;
+    padding: 13px 17px;
+    border: 2px solid #646E7A;
+    border-radius: 6px;
+}
+
+/*This is the end of header styling*/
+
+
+/*The is main content styling*/
+.maincontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    padding: 85px;
+}
+
+.container{
+    display: flex;
+    
+    gap: 0;
+    width:892px;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05), 0px 15px 35px 0px rgba(43, 64, 78, 0.10);
+
+}
+
+/*This is the end of main content Styling*/
+
+
+/*This is the checkout styling*/
+
+.checkout{
+    
+    width: 580px;
+    
+}
+
+.checkouta{
+    padding:50px;
+    border-bottom: 2px solid #F5F7FA;
+}
+
+.checkouta span{ 
+    font-size: 30px;
+    color: #1D2C3C;
+    font-weight: 400;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.checkoutb{
+    padding:30px 50px;
+    border-bottom: 2px solid #F5F7FA;
+}
+
+
+.secnum{
+    display: flex;
+    gap:8px;
+    align-items: center;
+}
+.numbering{
+    font-size: 16px;
+    color: #548BC5;
+    border: 2px solid #548BC5;
+    font-weight: 600;
+    padding: 5px 10px 7px 10px;
+    border-radius: 40px;
+}
+
+.info{
+    font-size: 18px;
+}
+
+.checkoutc{
+    padding:0px 50px;
+    
+}
+
+
+.inputfield{
+    font-weight: 500;
+height: auto;
+padding: 13px;
+background-color: #EDEFF2;
+border-radius: 4px;
+color: #646E7A;
+font-size: 14px;
+border: 1px solid transparent;
+}
+
+.inputfield2{
+    font-weight: 500;
+    width: 370px;
+height: auto;
+padding: 13px;
+background-color: #EDEFF2;
+border-radius: 4px;
+color: #646E7A;
+font-size: 14px;
+border: 1px solid transparent;
+}
+
+
+label{
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 14px; font-weight: 550;
+}
+
+
+
+
+.inputfield::placeholder{
+    color: #646E7A;
+    font-size: 14px;
+}
+
+
+.inputfield2::placeholder{
+    color: #646E7A;
+    font-size: 14px;
+}
+
+.vertical{
+display: flex;
+width: 100%;
+flex-direction: column;
+}
+
+.input {
+    margin-top:20px;
+display: flex;
+gap: 30px;
+
+align-items: center;
+justify-content: center;
+}
+
+
+
+    
+    
+    
+    
+   
+
+    .input2 {
+        margin-top:20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: ;
+        
+    }
+
+    .payment{
+        margin-top: 20px;
+    }
+
+    .payment p{
+        width: 100%;
+        display: block;
+        margin-bottom: 15px;
+        font-size: 14px; font-weight: 550;
+    }
+
+
+    .creditcard{
+        font-weight: 500;
+    height: auto;
+    padding: 13px;
+    background-color: #EDEFF2;
+    border-radius: 4px 0px 0px 4px;
+    color: #646E7A;
+    font-size: 14px;
+    border: 1px solid transparent;
+    
+    width:390px;
+    }
+
+    .cvv{
+        font-weight: 500;
+    height: auto;
+    padding: 13px;
+    background-color: #EDEFF2;
+    border-radius: 0px 4px 4px 0px;
+    color: #646E7A;
+    font-size: 14px;
+    border: 1px solid transparent;
+    width:50px;
+    }
+
+    .yr{
+        font-weight: 500;
+    height: auto;
+    padding: 13px;
+    background-color: #EDEFF2;
+    border-radius: 0px;
+    color: #646E7A;
+    font-size: 14px;
+    border: 1px solid transparent;
+    width:50px;
+    }
+    
+    
+    
+    
+
+    .button{
+        padding: 18px;
+        border-radius: 5px;
+        font-weight: 550;
+        color:#fff; font-size: 18px; text-align: center; 
+        background-color: #038E7D;
+        margin-top: 40px;
+        margin-bottom: 23px;
+    }
+
+    .seclast{
+        display: flex;
+        gap:8px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+
+    .seclast span{
+        color: #646E7A;
+    }
+
+    .question{
+        font-size: 16px;
+        color: #548BC5;
+        border: 2px solid #548BC5;
+        font-weight: 600;
+        padding: 1px 6px 2px 7px;
+        border-radius: 40px;
+    }
+    
+    .stripe{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 47px;
+    }
+/*This is the end of checkout styling*/
+
+
+/*This is the freelance styling*/
+.freelancer{
+    font-size: 16px;
+    background-color: #1179BF;
+    width:212px;
+    padding:50px;
+    color: white;
+    
+}
+
+.freelancer a {
+    text-decoration: none; color: white
+}
+
+.heading {font-size: 20px; margin-bottom: 5px;}
+.amount{ font-size: 60px; margin-bottom: 5px;}
+.amount span{ font-size: 18px;}
+
+.amount sup{ font-size: 24px; }
+
+.listed{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.seclist{
+    display: flex;
+    gap:10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    
+}
+
+.need{
+    padding-bottom: 40px;
+    border-bottom: 2px solid #4194CC; 
+}
+
+.need h1{ font-size: 16px;}
+.need span {border-bottom:3px solid #66B7DF;}
+
+.review{
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.reviewed{margin-bottom: 20px;}
+
+.seclisted{
+    display: flex;
+    gap:15px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    align-items: center;
+}
+.bitmap{
+    border-radius: 500px; 
+    overflow: hidden;
+}
+
+
+/*This is the end of freelance styling*/
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: -60px;
+    align-items: center;
+    font-size: 14px;
+    color: #636B6F;
+}
+
+.copyright span{
+    color: #31708F;
+}
